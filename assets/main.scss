@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 2500px
+}
+@import 'layout/header';
+@import 'layout/section1';
+@import 'layout/section2';
+@import 'layout/section3';
+@import 'layout/section4';
+@import 'layout/section5';
+@import 'layout/section6';
+@import 'layout/footer';

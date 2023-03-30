@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  height: 2500px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+header nav {
+  opacity: 0.7;
+  height: 7vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .icon {
+  display: none;
+}
+header nav .icon i {
+  cursor: pointer;
+  color: #737373;
+  border: 1px solid #eaeaea;
+  border-radius: 10%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+header nav h1:hover {
+  color: #f4633c;
+}
+header nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+header nav div p {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 17px;
+}
+header nav div p:hover {
+  color: #f4633c;
+}
+
+@media only screen and (max-width: 1000px) {
+  header nav {
+    opacity: 1;
+    background-color: white;
+    color: black;
+  }
+  header nav .icon {
+    display: block;
+  }
+  header nav p {
+    display: none;
+  }
+}
+main {
+  height: 50vh;
+}
+main .section1 {
+  height: 60vh;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .section1 .hami {
+  height: 50vh;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .section1 .hami h1 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 35px;
+}
+main .section1 .hami .xet {
+  margin-top: 3%;
+  height: 3px;
+  width: 100px;
+  background-color: #f4623a;
+}
+main .section1 .hami p {
+  margin-top: 3%;
+  color: #cecfcd;
+}
+main .section1 .hami .duyme button {
+  cursor: pointer;
+  margin-top: 30px;
+  background-color: orangered;
+  padding: 20px;
+  border: none;
+  border-radius: 10%;
+  color: white;
+}
+main .section1 .hami .duyme button:hover {
+  background-color: #c34e2e;
+}
+
+.section2 {
+  background-color: #f4623a;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .hami {
+  height: 50vh;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .hami h1 {
+  font-family: sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.section2 .hami .xet {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  border-radius: 10%;
+  background-color: white;
+  height: 3px;
+  width: 100px;
+}
+.section2 .hami p {
+  margin-top: 20px;
+  color: #fcd8cd;
+}
+.section2 .hami button {
+  margin-top: 20px;
+  cursor: pointer;
+  height: 5vh;
+  width: 15vh;
+  border-radius: 15%;
+  border: none;
+  background-color: white;
+  color: black;
+}
+.section2 .hami button:hover {
+  background-color: #c6c7c8;
+}
+
+.section3 {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .hami {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .hami h1 {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.section3 .hami .xet {
+  margin-top: 20px;
+  width: 100px;
+  height: 3px;
+  background-color: #f4623a;
+  border-top: 1px solid black;
+}
+.section3 .hami .element {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  max-width: 900px;
+}
+.section3 .hami .element .ayri1 {
+  display: flex;
+}
+.section3 .hami .element .ayri1 .ele1 {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 35vh;
+}
+.section3 .hami .element .ayri1 .ele1 i {
+  color: #f4623a;
+  font-size: 30px;
+}
+.section3 .hami .element .ayri1 .ele1 p {
+  color: #7a8489;
+}
+.section3 .hami .element .ayri1 .ele2 {
+  padding: 50px;
+  height: 35vh;
+  width: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .hami .element .ayri1 .ele2 i {
+  color: #f4623a;
+  font-size: 30px;
+}
+.section3 .hami .element .ayri1 .ele2 p {
+  color: #7a8489;
+}
+.section3 .hami .element .ayri2 {
+  display: flex;
+}
+.section3 .hami .element .ayri2 .ele3 {
+  padding: 50px;
+  height: 35vh;
+  width: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .hami .element .ayri2 .ele3 i {
+  color: #f4623a;
+  font-size: 30px;
+}
+.section3 .hami .element .ayri2 .ele3 p {
+  color: #7a8489;
+}
+.section3 .hami .element .ayri2 .ele4 {
+  padding: 50px;
+  height: 35vh;
+  width: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .hami .element .ayri2 .ele4 i {
+  color: #f4623a;
+  font-size: 30px;
+}
+.section3 .hami .element .ayri2 .ele4 p {
+  color: #7a8489;
+}
+
+@media only screen and (max-width: 1240px) {
+  .section3 .hami .element .ayri1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section3 .hami .element .ayri2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1240px) and (max-width: 600px) {
+  .section3 {
+    height: 250vh;
+  }
+  .section3 .hami .element {
+    display: flex;
+    flex-direction: column;
+  }
+  .section3 .hami .element .ayri1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section3 .hami .element .ayri2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.section4 .images .hami .ayri1 {
+  display: flex;
+}
+.section4 .images .hami .ayri1 div {
+  height: 300px;
+  width: 100%;
+}
+.section4 .images .hami .ayri1 div img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.section4 .images .hami .ayri2 {
+  display: flex;
+}
+.section4 .images .hami .ayri2 div {
+  height: 300px;
+  width: 100%;
+}
+.section4 .images .hami .ayri2 div img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.section5 {
+  border: 1px solid black;
+  background-color: #212529;
+  height: 50vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section5 h1 {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+.section5 button {
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border-radius: 25%;
+  height: 70px;
+  width: 200px;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.section5 button:hover {
+  background-color: #c6c7c8;
+}
+
+.section6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 150vh;
+  width: 100%;
+}
+.section6 h1 {
+  font-size: 35px;
+  font-family: sans-serif;
+}
+.section6 .xet {
+  padding: 0px;
+  margin-top: 10px;
+  height: 3px;
+  width: 100px;
+  border-top: 1px solid black;
+  background-color: #f4623a;
+}
+.section6 p {
+  margin-top: 20px;
+  color: #6c757d;
+}
+.section6 div {
+  color: #212529;
+  font-size: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #d3d9de;
+  border-radius: 3%;
+  padding: 10px;
+  height: 50px;
+  width: 400px;
+}
+.section6 .div4 {
+  height: 200px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.section6 button {
+  opacity: 0.6;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  border: none;
+  border-radius: 3%;
+  height: 50px;
+  width: 420px;
+  background-color: #f4623a;
+  color: white;
+}
+.section6 i {
+  margin-top: 50px;
+  font-size: 35px;
+  color: #6c757d;
+}
+.section6 .nomre {
+  margin-top: 0px;
+  color: #6c757d;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+main footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+main footer p {
+  color: #6c757d;
+}/*# sourceMappingURL=main.css.map */
